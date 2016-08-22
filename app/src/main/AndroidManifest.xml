@@ -18,6 +18,6 @@
 // along with orientation-info. If not, see <http://www.gnu.org/licenses/>.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="de.topobyte.orientation">
+          package="de.topobyte.android.orientation">
 
 </manifest>

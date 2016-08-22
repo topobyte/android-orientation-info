@@ -23,8 +23,6 @@ import android.content.pm.ActivityInfo;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.topobyte.orientation.R;
-
 public class OrientationInfo {
 
   private int[] choices = new int[]{
