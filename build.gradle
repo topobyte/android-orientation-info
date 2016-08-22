@@ -17,3 +17,21 @@ allprojects {
         jcenter()
     }
 }
+
+project(':android-orientation-info') {
+    def pomInfo = new XmlSlurper().parse(new File('info.pom'));
+
+    afterEvaluate { project ->
+        uploadArchives {
+            repositories {
+                mavenDeployer {
+                    pom.project {
+                        name pomInfo.name
+                        description pomInfo.description
+                        url pomInfo.url
+                    }
+                }
+            }
+        }
+    }
+}
