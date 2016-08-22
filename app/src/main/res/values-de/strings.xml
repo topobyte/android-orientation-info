@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// Copyright 2016 Sebastian Kuerten
+//
+// This file is part of orientation-info.
+//
+// orientation-info is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// orientation-info is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU Lesser General Public License for more details.
+//
+// You should have received a copy of the GNU Lesser General Public License
+// along with orientation-info. If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="orientation_default">Standard</string>
+    <string name="orientation_auto">Automatisch</string>
+    <string name="orientation_portrait">Hochformat</string>
+    <string name="orientation_landscape">Querformat</string>
+
+</resources>
